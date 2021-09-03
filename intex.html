@@ -2,10 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/style.css">
-   <title>Practice make </title>
+   <title>user Card </title>
 </head>
 <body>
-  
+  <!-- .header-div+img.porfolio+h1.name+h2.adress+a.follow{follow}+p>lorem20+ -->
+<section class="cards-container">
+  <h1 class="title-container">user list</h1>
+  <!-- артикл по сущности объединяющий -->
+  <article class="cadr-wrapper">
+    <header class="header-bg"></header>
+    <div class="card-content">
+      <div class="photo-wrapper">
+        <!-- этот див только чтобы в случае незагрузки картинки поместить что-либо другое -->
+        <img src="./assets/images/default_female600x600-3702af30bd630e7b0fa62af75cd2e67c.jpg" alt="John Addison" class="photo-profile">
+      </div>
+      <h2 class="full-name-user">john Addison</h2>
+      <address class="address-user">
+        <img src="./assets/images/map-marker-radius-outline.png" alt="marcer">
+        New Jersey, USA
+      </address>
+      <!-- ТУТ чисто для стилизаци, чтобы было куда класть элементы. -->
+      <div class="btn-container">
+        <button class="btn">follow</button>
+        <button class="btn">send messege</button>
+      </div>
+      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga architecto, distinctio optio asperiores esse blanditiis?</p>
+    </div>
+    <footer class="footer-bg" >
+      <a href=""><img src="./assets/images/google.png" alt=""></a>
+      <a href=""><img src="./assets/images/facebook.png" alt=""></a>
+      <a href=""><img src="./assets/images/twitter (1).png" alt=""></a>
+    </footer>
+  </article>
+</section> 
 </body>
 </html>
